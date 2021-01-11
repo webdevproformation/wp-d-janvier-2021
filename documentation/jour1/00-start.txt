@@ -1,0 +1,138 @@
+2 premiers jours => découvrir wordpress (comment ça fonctionne)
+
+https://formation.webdevpro.net/wordpress/
+login : wp
+mot de passe : wp 
+
+Attention les identifiants en minuscule 
+Attention pour l'adresse du support => directement dans la barre d'adresse
+https://formation.webdevpro.net/wordpress/ (pas dans Google !!!)
+
+3 jours suivants : 
+
+développement (thème => comment personnaliser un site wordpress ) 
+il y aura un deuxième support (un autre site internet)
+
+=> le support (login et mot de passe peuvent changer)
+=> version papier (télécharger et la stocker dans vote ordinateur)
+=> malik.h@webdevpro.net => demander les nouveaux mots de passe 
+
+
+----------------------- 
+
+?? qu'est ce que vous avez vu ??? pendant la 1ère heure 
+
+=> merci Nadia 
+
+=> wordpress à l'origine (créé en 2003) 
+=> blog = web log => sur internet // log : journal 
+=> wordpress surtout un outil qui a été conçu comme un journal intime sur internet
+billet d'humeur (article parle d'un sujet) 
+=> communauté et va mettre des commentaires sous l'article 
+
+billet d'humeur // article // post 
+
+CMS = Content Management System => outil qui permet de facilement gérer le système de gestion d'article 
+
+----------------
+
+Part de Marché de Wordpress sur internet (les sites internet)
+=> 39.5 % des sites les plus importants
+
+=> système essentiel à connaitre pour comprendre l'internet d'aujourd'hui 
+
+----------------
+
+CMS => catégorie de logiciel permettant de gérer un site internet 
+
+Wordpress / Drupal / Joomla / Wix .... 
+
+Front Office et le Back Office 
+- Front Office => partie visible par les internautes 
+- Back Office => partie du site accessible uniquement aux gestionnaires du site 
+internet (login et mot passe pour pouvoir voir le contenu de cette partie du site)
+
+Front Office = salle à manger 
+Back Office = la cuisine dans cette partie du site que l'on va 
+	préparer les plats => qui vont être servis dans la salle à manger !! 
+
+------ 
+
+CMS => hiérarchies des gestionnaires 
+dans le back office, plusieurs gestionnaires qui peuvent travailler en même temps
+et chaque gestion rôle (des droits) 
+
+administrateur => rôle le plus important (peut changer les login et mot de passe des autre gestionnaires)
+
+------ 
+
+html / css / javascript / php 
+permet de créer des pages web en ayant peu de connaissance dans les langages de base
+Menu / Page / Diaporama / organiser la disposition des blocs dans les pages 
+
+permet de créer des site facilement 
+
+-----
+
+des pros et les débutants utilisent wordpress 
+
+-----
+
+l'argent : les équipes qui développent wordpress (rémunérés)
+
+Modèle Economique : FreeMium
+Free et Premium : 
+Wordpress => donner une grande partie du code gratuitement (open sources)
+par contre les services complémentaires => payant 
+open source vous pouvez le réduire au minimum 
+
+Exemple de services que l'on va avoir (contre un paiement)
+
+L’hébergement & Nom de domaine
+Thème (apparence visuelle du front end) premium
+Modules (fonctionnalités) additionnels
+Maintenance applicative et les Evolutions
+Formation & Assistance
+Traduction, Référencement
+
+-------------------
+
+pause café => rdv dans 15 min => rdv 10h56
+
+-------------------
+
+installation de Wordpress (bon café à toute suite !!!!!!!!!)
+
+
+fin de la présentation 
+
+-------------------
+
+toutes les notes prises en plus du support (site internet)
+partager sur un site internet => github 
+
+12h30 
+
+à partir de 13h30 (créé un repository github dans lequel je vais vous partager
+toutes mes prises de notes)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

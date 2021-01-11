@@ -1,0 +1,295 @@
+vient de finir de présenter wordpress !!! 
+
+
+Installation de wordpress 
+
+=> il existe deux manières installer wordpress 
+
+
+1ère manière utiliser le site internet : 
+
+wordpress.com
+
+wordpress.com => SAAS (software As A Service)
+wordpress va être créé via un site internet 
+
+la seule chose dont vous allez avoir besoin (créer un compte utilisateur sur le site)
+solution qui est parfaite lorsque l'on veut juste se créer un site web
+et ne pas rentrer dans tous les détails techniques 
+
+MAIS cette version est limitée => si vous voulez effectuer des modifications 
+comme le changer de thème => payant 
+installer de nouvelles fonctionnalités => payant 
+
+https://wordpress.com/fr/
+
+
+https://wordpress.com/fr/pricing/ => payant 
+
+------------------- 
+
+2ème manière d'installer Wordpress passer par le site wordpress.org 
+
+
+wordpress.org => d'installer wordpress (un peu plus compliqué)
+donner des accès pour pouvoir réaliser beaucoup plus de choses 
+thème / plugin (extension) / code source / 
+beaucoup plus libre en tant que développeur 
+
+https://wordpress.org/ 
+https://fr.wordpress.org/ (version française)
+
+=> à partir de ce site que nous allons installer et créer nos sites wordpress 
+
+dans https://fr.wordpress.org/ 
+=> thème => personnaliser le front office de notre site wordpress 
+=> extension => permettre d'ajouter des fonctionnalités supplémentaires sur note site wordpress 
+
+=> installation (comment installer wordpress )
+=> Documentation : comment ça fonctionne wordpress + rentrer dans le code source : comment ça fonctionne de l'intérieur wordpress (au niveau code source)
+
+
+=> télécharger => https://fr.wordpress.org/download/ 
+
+ici que l'on va récupérer le code source de wordpress pour l'installer en local 
+
+------------------------ 
+
+dans mon support 
+
+est ce qu'il y a des étudiants sur MacOS (???????? / Linux ?????????)
+
+tout le monde est sur Windows ??? 
+
+------------------------
+
+Avez vous fait du PHP ? => Wordpress est un outil codé en PHP !! 
+
+Pour travailler en PHP, avez besoin d'avoir un logiciel installé en local
+WAMP / XAMPP  / EasyPHP 
+
+=> que tout le monde installe XAMPP 
+=> pour les étudiants qui utilisent WAMP vous ne pouvez pas avoir en même temps 
+
+XAMPP et WAMP qui fonctionnent simultanément 
+
+
+=> XAMPP => installer 
+=> https://www.apachefriends.org/index.html 
+
+une fois que le logiciel est téléchargé et installé 
+
+démarrer  le logiciel => 
+touche windows > xampp > cliquer pour le démarrer > Panel 
+( panneau de control )
+
+une fois que le panneau de control est démarré vous devez démarrer deux services
+
+Apache  => start => Apache va se mettre sur fond vert
+MySQL   => start => MySQL va se mettre sur fond vert
+
+-------------------- 
+
+Créer une base de données => 
+obligatoire pour pouvoir faire fonctionner un projet wordpress 
+
+dans le panneau de control => cliquer sur le bouton Admin (dans la ligne MySQL)
+
+http://localhost/phpmyadmin/  (ouvrir une page web => phpMyAdmin)
+
+site internet qui permet de facilement créer une base de données 
+... 
+
+
+une fois que vous êtes arrivé sur php phpMyAdmin
+
+=> en français 
+
+
+--------------------------- 
+
+pour créer une base de données => cliquer sur l'onglet base de
+données 
+
+nom base de données  : jour1  (tout en minuscule et pas d'espace
+par de majuscule)
+
+menu déroulant : utf8mb4_general_ci
+interclassement (permet de garantir que les
+caractères accentués (éèêà ...)) sont stockés correctement
+en base de données 
+
+on vient de créer la balise de données jour1 
+
+
+--------------------------- 
+
+une fois que la base de données est créées 
+
+=> créer un compte utilisateur pour cette base de données
+
+cliquer sur l'onglet privilèges >  
+cliquer sur le lien Ajouter un compte d'utilisateur >
+
+Nom d'utilisateur : jour1
+Nom d'hôte : localhost 
+mot de passe : jour1
+saisir à nouveau : jour1
+
+svp : tout en minuscule / pas d'espace au début et
+à la fin 
+
+svp : ne pas remplir le champ générer un mot de passe
+
+
+cliquer sur le bouton exécuter => 
+
+-------------------------- 
+
+repair table DATABASENAME.TABLENAME use_frm;
+
+
+-------------------- 
+
+j'aicréer ma base de données et mon utilisateur 
+
+maintenant je vais installer wordpress 
+
+dans le panneau de control => Explorer 
+clique dessus => je clique sur le dossier htdocs
+
+https://fr.wordpress.org/latest-fr_FR.zip
+
+télécharger et positionner le fichier .zip dans 
+le dossier c:\xampp\htdocs 
+extraire le fichier => .zip 
+
+
+Hello hello de retour !!! 
+Comment allez vous ??? 
+
+finir la phase d'installation 
+
+=> résumé de l'installation (demain cas pratique => demain matin pour tout réinstaller vous même)
+
+------------------------- 
+
+1 installé XAMPP 
+2 demarré XAMPP et démmarré 2 services : APACHE et MySQL 
+3 créer une base de données dans phpMyAdmin => jour1
+4 créer un compte utilisateur  (dans phpMyAdmin)
+    login : jour1
+    mdp : jour1
+    host : localhost 
+
+5 Téléchargé les fichiers sources de wordpress depuis le site wordpress.org
+https://fr.wordpress.org/download/ => .zip 
+
+6 déplacer le fichier .zip dans le dossier c:\xampp\htdocs 
+7 extrait le fichier .zip (fichier archive) 
+8 renommer le dossier wordpress => jour1 => placé directement dans le dosssier c:\xampp\htdocs\jour1
+
+pour pouvoir avoir 1 projet (site internet) = 1 dossier dans c:\xampp\htdocs = 1 base de données = 1 compte utilisateur 
+
+un peu fastidieux mais à long terme le fait de ranger les différentes parties du projets 
+dans des dossiers à part => plus facile de s'y retrouver !! 
+
+9 installer wordpress : dans la barre d'adresse de votre navigateur 
+http://localhost/jour1 (pour tout le monde !)
+
+10 identifiants de connexion à la base de données
+
+(tout le monde saut Félipé)
+
+nom bdd : jour1
+identifiant : jour1
+mdp : jour1 
+adresse de bdd : localhost
+préfix des tables : wp_
+
+------------- 
+
+pour Félipé
+
+nom bdd : jour1
+identifiant : root
+mdp : root
+adresse de bdd : localhost
+préfix des tables : wp_
+
+------------------------ 
+
+
+C’est parfait ! Vous avez passé la première partie de l’installation. WordPress peut désormais communiquer avec votre base de données. Préparez-vous, il est maintenant temps de…
+
+------------------------ 
+
+CMS => utilisateur spécial Administrateur
+utiliser qui a tous les droits sur le site 
+
+au moment de l'installation de wordpress 
+que l'on crée le compte administrateur du site  !! 
+
+
+titre site : jour1 
+identifiant : jour1 
+mot de passe admin : jour1
+Accepter que la mot passe soit faible 
+email : jour1@jour1.fr
+ne pas cocher : les moteurs de recherche 
+
+Cliquer sur le bouton : installer wordpress 
+
+=> Fin (nous venons d'installer wordpress)
+
+
+Quel succès !
+WordPress est installé. Merci et profitez bien !
+
+se connecté 
+
+
+=> la manipation ne change PLUS (à part le nom de la base données / compte
+utilisateur / le dossier dans c:\xampp\htdocs)
+
+1 installé XAMPP (un fois que XAMPP installé dans votre ordinateur / pas besoin de le 
+réinistaller)
+2 demarré XAMPP et démmarré 2 services : APACHE et MySQL 
+3 créer une base de données dans phpMyAdmin => jour1
+4 créer un compte utilisateur  (dans phpMyAdmin)
+    login : jour1
+    mdp : jour1
+    host : localhost 
+
+5 Téléchargé les fichiers sources de wordpress depuis le site wordpress.org
+https://fr.wordpress.org/download/ => .zip 
+
+6 déplacer le fichier .zip dans le dossier c:\xampp\htdocs 
+7 extrait le fichier .zip (fichier archive) 
+8 renommer le dossier wordpress => jour1 => placé directement dans le dosssier c:\xampp\htdocs\jour1
+
+9 installer wordpress : dans la barre d'adresse de votre navigateur 
+http://localhost/jour1 (pour tout le monde !)
+
+10 identifiants de connexion à la base de données
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
