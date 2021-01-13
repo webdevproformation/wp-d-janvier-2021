@@ -17,7 +17,7 @@
             <nav class="col-8 navbar navbar-expand navbar-light bg-white">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Accueil</a>
+                        <a href="<?php echo bloginfo("home") ?>" class="nav-link">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Présentation</a>
@@ -34,5 +34,4 @@
                     <input type="submit" class="btn btn-outline-dark btn-sm ms-2">
                 </form>
             </nav>
-           
         </header>

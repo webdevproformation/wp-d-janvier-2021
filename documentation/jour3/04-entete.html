@@ -11,3 +11,57 @@ dans ce fichier on va essayer de rendre ce code html plus dynamique
 => on le trouve dans le back office 
 Réglage > Général 
 
+
+=> pour créer la barre de menu => utilisé Bootstrap 
+=> https://getbootstrap.com/docs/5.0/components/navbar/
+
+
+------- 
+
+ajouter des liens dynamiques 
+
+<a href="#" class="nav-link">Accueil</a>
+
+remplacer le symbole # par un vrai lien généré par Wordpress 
+
+// pour récupérer l'adresse de la page d'accueil du site 
+
+<?php echo bloginfo("home") ?>
+
+------- 
+
+Dans le back office créer 3 pages :
+
+Page 1
+Titre principal : Accueil 
+zone de contenu : p Bienvenu sur mon site !!! 
+
+=> id = 5 => <?php echo get_permalink(5) ?>
+
+Page 2
+Titre principal : Présentation 
+zone de contenu : p voici une liste de mes réalisations 
+
+=> id = 7 <?php echo get_permalink(7) ?>
+
+Page 3
+Titre principal : Nous Contacter
+zone de contenu : p Veuillez utiliser le formulaire suivant pour toutes questions 
+
+=> id = 9  <?php echo get_permalink(9) ?>
+
+=> back office => page gutenberg => dans la barre d'adresse 
+
+http://localhost:1234/wp-admin/post.php?post=9&action=edit
+
+Tout est numéroté dans Wordpress 
+
+
+=> déjeuner 
+finir le menu (avec les liens !!! )
+
+=> faire ne sorte que lorsque l'on clique sur un lien dans le menu => le contenu 
+soit cohérent avec ce que l'on a écrit !! 
+
+=> Bon appétit tout lemonde !! rdv 1 h 
+rdv 13h35 bon appétit à toutes et tous !!!!!!!!!!!! 
