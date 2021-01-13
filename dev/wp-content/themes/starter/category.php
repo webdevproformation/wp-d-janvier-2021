@@ -6,13 +6,13 @@
                 <div class="col-4">
                     <div class="card">
                         <header class="card-header">
-                            <h2><?php the_title() ?> </h2>
+                            <h2><i class="bi bi-watch"></i> <?php the_title() ?> </h2>
                         </header>
                         <div class="card-body">
                             <?php the_excerpt() ?>
                         </div>
                         <div class="card-footer">
-                            <a href="<?php the_permalink() ?>">lire la suite ...</a>
+                            <a href="<?php the_permalink() ?>">lire la suite <i class="bi bi-suit-heart"></i></a>
                         </div>
                     </div>
                 </div>
