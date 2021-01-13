@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Super recette de cuisine</title>
+	<atom:link href="http://localhost/jour2/feed/" rel="self" type="application/rss+xml" />
+	<link>http://localhost/jour2</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Jan 2021 13:03:32 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+	<item>
+		<title>Article sans commentaire</title>
+		<link>http://localhost/jour2/article-sans-commentaire/</link>
+					<comments>http://localhost/jour2/article-sans-commentaire/#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 13:00:40 +0000</pubDate>
+				<category><![CDATA[informatique]]></category>
+		<guid isPermaLink="false">http://localhost/jour2/?p=41</guid>
+
+					<description><![CDATA[hello]]></description>
+										<content:encoded><![CDATA[
+<h2>hello</h2>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="576" src="http://localhost/jour2/wp-content/uploads/2021/01/5YK43U9-1024x576.jpg" alt="" class="wp-image-42" srcset="http://localhost/jour2/wp-content/uploads/2021/01/5YK43U9-1024x576.jpg 1024w, http://localhost/jour2/wp-content/uploads/2021/01/5YK43U9-300x169.jpg 300w, http://localhost/jour2/wp-content/uploads/2021/01/5YK43U9-768x432.jpg 768w, http://localhost/jour2/wp-content/uploads/2021/01/5YK43U9-1536x864.jpg 1536w, http://localhost/jour2/wp-content/uploads/2021/01/5YK43U9-1568x882.jpg 1568w, http://localhost/jour2/wp-content/uploads/2021/01/5YK43U9.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost/jour2/article-sans-commentaire/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>article 4</title>
+		<link>http://localhost/jour2/article-4/</link>
+					<comments>http://localhost/jour2/article-4/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 12:46:41 +0000</pubDate>
+				<category><![CDATA[informatique]]></category>
+		<guid isPermaLink="false">http://localhost/jour2/?p=38</guid>
+
+					<description><![CDATA[les&#160;différentes&#160;manières&#160;de&#160; commenter&#160;un&#160;article Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam omnis culpa, rem ipsa nulla quo inventore saepe cumque esse excepturi, tempora suscipit ad reprehenderit perspiciatis a non tempore vero distinctio?]]></description>
+										<content:encoded><![CDATA[
+<h2>les&nbsp;différentes&nbsp;manières&nbsp;de&nbsp;</h2>
+
+
+
+<h2>commenter&nbsp;un&nbsp;article</h2>
+
+
+
+<p><a rel="noreferrer noopener" href="http://localhost/jour2/salade-de-penne/" data-type="post" data-id="15" target="_blank">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit. <a href="http://localhost/jour2/salade-de-penne/" data-type="URL" data-id="http://localhost/jour2/salade-de-penne/">Aperiam om</a>nis culpa, rem ipsa nulla quo inventore saepe cumque esse excepturi, tempora suscipit ad reprehenderit perspiciatis a non tempore vero distinctio?</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost/jour2/article-4/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Résumé des recette</title>
+		<link>http://localhost/jour2/resume-des-recette/</link>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 11:32:40 +0000</pubDate>
+				<category><![CDATA[Entrée]]></category>
+		<category><![CDATA[Plat Principal]]></category>
+		<guid isPermaLink="false">http://localhost/jour2/?p=35</guid>
+
+					<description><![CDATA[penne risotto]]></description>
+										<content:encoded><![CDATA[
+<h2>penne</h2>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="200" height="150" src="http://localhost/jour2/wp-content/uploads/2021/01/DSC01202-1.jpg" alt="" class="wp-image-17"/></figure></div>
+
+
+
+<h2>risotto</h2>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="266" height="400" src="http://localhost/jour2/wp-content/uploads/2021/01/DSC_2612.jpg" alt="" class="wp-image-23" srcset="http://localhost/jour2/wp-content/uploads/2021/01/DSC_2612.jpg 266w, http://localhost/jour2/wp-content/uploads/2021/01/DSC_2612-200x300.jpg 200w" sizes="(max-width: 266px) 100vw, 266px" /></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="266" height="400" src="http://localhost/jour2/wp-content/uploads/2021/01/DSC_2622.jpg" alt="" class="wp-image-22" srcset="http://localhost/jour2/wp-content/uploads/2021/01/DSC_2622.jpg 266w, http://localhost/jour2/wp-content/uploads/2021/01/DSC_2622-200x300.jpg 200w" sizes="(max-width: 266px) 100vw, 266px" /></figure></div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Un risotto sucré-salé&#8230;</title>
+		<link>http://localhost/jour2/un-risotto-sucre-sale/</link>
+					<comments>http://localhost/jour2/un-risotto-sucre-sale/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 10:48:01 +0000</pubDate>
+				<category><![CDATA[Plat Principal]]></category>
+		<category><![CDATA[Italie]]></category>
+		<category><![CDATA[Salé]]></category>
+		<category><![CDATA[sucré]]></category>
+		<guid isPermaLink="false">http://localhost/jour2/?p=21</guid>
+
+					<description><![CDATA[une super recette à faire en amis !! ]]></description>
+										<content:encoded><![CDATA[
+<p>Voici une recette qui sent bon l’été, ou du moins ce qu’il en reste (pas grand-chose parait-il…). Encore quelques melons sur les étals de nos magasins, il faut en profiter.</p>
+
+
+
+<p>Une recette qui marie l’onctuosité du risotto, la puissance du Stilton et la douceur du melon !</p>
+
+
+
+<p><a href="https://docs.google.com/document/edit?id=1CQu9ypwzkRM1CH58pzvVE2bm_PADVV2jwvUUrQ9OL4A&amp;hl=en" data-type="URL" data-id="https://docs.google.com/document/edit?id=1CQu9ypwzkRM1CH58pzvVE2bm_PADVV2jwvUUrQ9OL4A&amp;hl=en" target="_blank" rel="noreferrer noopener">Version imprimable</a></p>
+
+
+
+<h3><strong>Risotto à la bière blanche et Stilton et tranches de melons poêlés</strong></h3>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="266" height="400" src="http://localhost/jour2/wp-content/uploads/2021/01/DSC_2622.jpg" alt="" class="wp-image-22" srcset="http://localhost/jour2/wp-content/uploads/2021/01/DSC_2622.jpg 266w, http://localhost/jour2/wp-content/uploads/2021/01/DSC_2622-200x300.jpg 200w" sizes="(max-width: 266px) 100vw, 266px" /></figure></div>
+
+
+
+<h4 class="has-text-align-center"><strong><em>&#8212;&#8212;- Ingrédients (pour 2 pers.) &#8212;&#8212;-</em></strong></h4>
+
+
+
+<ul><li>140g de riz pour risotto</li><li>½ oignon émincé</li><li>Huile d’olive</li><li>1dl de bière blanche (style Hoegaarden)</li><li>Bouillon de légumes</li><li>2-3 càs de Stilton (au porto)</li><li>1càs de parmesan râpé</li><li>Noix de beurre</li><li>1 bout de melon</li><li>Beurre à rôtir</li><li>Piment d’Espelette</li></ul>
+
+
+
+<h4 class="has-text-align-center"><strong><em>&#8212;&#8212;- Proposition /choix du vin &#8212;&#8212;-</em></strong></h4>
+
+
+
+<p>Vin : Un vin blanc fruité pour accompagner le melon style <strong>Chardonnay </strong>(barrique ou non si vous le préférez moins vanillé) ou un vin rouge léger, jeune <strong>Merlot du Tessin</strong> pour ses notes de sureau ou un <strong>Pinot noir</strong> passé en barrique.</p>
+
+
+
+<h4 class="has-text-align-center"><strong><em>&#8212;&#8212;&#8212;- Préparation &#8212;&#8212;&#8212;-</em></strong></h4>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p>Faire chauffer l&rsquo;huile d&rsquo;olive dans une casserole, et faire fondre l&rsquo;oignon émincé sur feux doux (SANS coloration).</p>
+
+
+
+<p>Ajouter le riz et remuer gentiment pour le faire nacrer (les grains deviennent plus « translucides »). Mouiller avec la bière blanche et mélanger bien jusqu&rsquo;à évaporation quasi totale du liquide.</p>
+
+
+
+<p>Puis mouiller avec le bouillon CHAUD petit à petit (en 5-6 fois) sur feux doux (feu sur 3 chez moi, 6 étant le max) pendant environ 18 minutes. Le liquide doit juste recouvrir le riz, à peine.</p>
+
+
+
+<p>2 minutes avant la fin de la cuisson du risotto, ajouter la noix de beurre (ça donne du goût et un crémeux incomparables), les fromages puis laisser finir de cuire. 1-2 tours de moulin à poivre et un peu de sel éventuellement.</p>
+
+
+
+<p>Pendant que le risotto cuit, découper de fines tranches de melon à l’aide d’une mandoline ou à la main (je l’ai fait avec un bon couteau et c’est allé). Faire chauffer le beurre à rôtir dans une poêle, y faire revenir rapidement le melon sur chaque face (env. 30sec.) Saupoudrer de piment d’Espelette et réserver.</p>
+
+
+
+<p>Servir le risotto dans une assiette creuse avec les tranches de melons. Bonne dégustation!!!</p>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:33.33%">
+<figure class="wp-block-image size-large"><img loading="lazy" width="266" height="400" src="http://localhost/jour2/wp-content/uploads/2021/01/DSC_2612.jpg" alt="" class="wp-image-23" srcset="http://localhost/jour2/wp-content/uploads/2021/01/DSC_2612.jpg 266w, http://localhost/jour2/wp-content/uploads/2021/01/DSC_2612-200x300.jpg 200w" sizes="(max-width: 266px) 100vw, 266px" /></figure>
+</div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost/jour2/un-risotto-sucre-sale/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Salade de penne</title>
+		<link>http://localhost/jour2/salade-de-penne/</link>
+					<comments>http://localhost/jour2/salade-de-penne/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 10:40:35 +0000</pubDate>
+				<category><![CDATA[Entrée]]></category>
+		<category><![CDATA[Italie]]></category>
+		<category><![CDATA[Salé]]></category>
+		<guid isPermaLink="false">http://localhost/jour2/?p=15</guid>
+
+					<description><![CDATA[Voilà, c&#8217;est une version estivale de ma recette au thon rouge et à la vodka… Ingrédients (pour 4 pers.) : 400g de penne (ou autre pâte) 1 bouquet de basilic 4 petits filets de thon rouge huile d&#8217;olive jus d&#8217; 1/2 citron vert vinaigre balsamique sel, poivre, coriandre parmesan Commencer par faire griller les filets&#8230; <a class="more-link" href="http://localhost/jour2/salade-de-penne/">Poursuivre la lecture de <span class="screen-reader-text">Salade de penne</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p>Voilà, c&rsquo;est une version estivale de ma recette au thon rouge et à la vodka…</p>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column">
+<p><strong><em>Ingrédients (pour 4 pers.) :</em></strong></p>
+
+
+
+<ul><li>400g de penne (ou autre pâte)</li><li>1 bouquet de basilic</li><li>4 petits filets de thon rouge</li><li>huile d&rsquo;olive</li><li>jus d&rsquo; 1/2 citron vert</li><li>vinaigre balsamique</li><li>sel, poivre, coriandre</li><li>parmesan</li></ul>
+</div>
+
+
+
+<div class="wp-block-column">
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="200" height="150" src="http://localhost/jour2/wp-content/uploads/2021/01/DSC01202.jpg" alt="" class="wp-image-16"/></figure></div>
+
+
+
+<p></p>
+</div>
+</div>
+
+
+
+<p>Commencer par faire griller les filets de thon. Je les ai faits sur un grill, sans matière grasse. L&rsquo;intérieur doit rester très légèrement rouge-rosé. Retirer de feu et couper en petits cubes. Laisser refroidir et réserver. Une fois refroidi, mettre dans un bol et ajouter le sel, le poivre, la coriandre en poudre, le basilic finement haché, le jus de citron et l&rsquo;huile d&rsquo;olive sur les cubes de thon. Laisser mariner le tout env. 30min au frigo</p>
+
+
+
+<div class="wp-block-columns">
+<div class="wp-block-column" style="flex-basis:33.33%">
+<figure class="wp-block-image size-large"><img loading="lazy" width="200" height="150" src="http://localhost/jour2/wp-content/uploads/2021/01/DSC01201.jpg" alt="" class="wp-image-18"/></figure>
+</div>
+
+
+
+<div class="wp-block-column" style="flex-basis:66.66%">
+<p>Cuire les pâtes al dente, les égoutter et passer sous l&rsquo;eau froide pour arrêter la cuisson. Bien égoutter. Mélanger les pâtes avec le thon mariné délicatement pour ne pas casser tous les morceaux. Ajouter quelques fines lamelles de parmesan et un filet de vinaigre balsamique (réserve si possible, un vinaigre assez sirupeux)</p>
+
+
+
+<p>Il n&rsquo;y a plus qu&rsquo;à déguster! Bon appétit</p>
+</div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost/jour2/salade-de-penne/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Deuxième article</title>
+		<link>http://localhost/jour2/deuxieme-article/</link>
+					<comments>http://localhost/jour2/deuxieme-article/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 09:03:14 +0000</pubDate>
+				<category><![CDATA[informatique]]></category>
+		<category><![CDATA[Non classé]]></category>
+		<category><![CDATA[js]]></category>
+		<category><![CDATA[Youtube]]></category>
+		<guid isPermaLink="false">http://localhost/jour2/?p=7</guid>
+
+					<description><![CDATA[Vidéo]]></description>
+										<content:encoded><![CDATA[
+<h2>Vidéo</h2>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Focus Music for Work and Studying, Background Music for Concentration, Study Music" width="750" height="422" src="https://www.youtube.com/embed/_4kHxtiuML0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost/jour2/deuxieme-article/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Premier article</title>
+		<link>http://localhost/jour2/premier-article/</link>
+					<comments>http://localhost/jour2/premier-article/#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 08:59:57 +0000</pubDate>
+				<category><![CDATA[informatique]]></category>
+		<category><![CDATA[Non classé]]></category>
+		<category><![CDATA[js]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[sql]]></category>
+		<guid isPermaLink="false">http://localhost/jour2/?p=5</guid>
+
+					<description><![CDATA[Présentation Lorem&#160;ipsum&#160;dolor&#160;sit,&#160;amet&#160;consectetur&#160;adipisicing&#160;elit.&#160;Corrupti&#160;recusandae&#160;consequuntur&#160;ea&#160;ipsa&#160;a&#160;ducimus,&#160;veniam&#160;sunt&#160;tempore&#160;quibusdam&#160;quas&#160;porro&#160;numquam,&#160;exercitationem,&#160;nostrum&#160;cumque&#160;quod&#160;aut&#160;nisi&#160;repudiandae&#160;delectus!]]></description>
+										<content:encoded><![CDATA[
+<h2>Présentation</h2>
+
+
+
+<p>Lorem&nbsp;ipsum&nbsp;dolor&nbsp;sit,&nbsp;amet&nbsp;consectetur&nbsp;adipisicing&nbsp;elit.&nbsp;Corrupti&nbsp;recusandae&nbsp;consequuntur&nbsp;ea&nbsp;ipsa&nbsp;a&nbsp;ducimus,&nbsp;veniam&nbsp;sunt&nbsp;tempore&nbsp;quibusdam&nbsp;quas&nbsp;porro&nbsp;numquam,&nbsp;exercitationem,&nbsp;nostrum&nbsp;cumque&nbsp;quod&nbsp;aut&nbsp;nisi&nbsp;repudiandae&nbsp;delectus!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost/jour2/premier-article/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bonjour tout le monde !</title>
+		<link>http://localhost/jour2/bonjour-tout-le-monde/</link>
+					<comments>http://localhost/jour2/bonjour-tout-le-monde/#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Tue, 12 Jan 2021 08:54:32 +0000</pubDate>
+				<category><![CDATA[Non classé]]></category>
+		<guid isPermaLink="false">http://localhost/jour2/?p=1</guid>
+
+					<description><![CDATA[Bienvenue sur WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis commencez à écrire !]]></description>
+										<content:encoded><![CDATA[
+<p>Bienvenue sur WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis commencez à écrire !</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://localhost/jour2/bonjour-tout-le-monde/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
