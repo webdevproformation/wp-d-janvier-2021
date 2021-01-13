@@ -6,7 +6,7 @@
                 <div class="col-4">
                     <div class="card">
                         <header class="card-header">
-                            <h2><i class="bi bi-watch"></i> <?php the_title() ?> </h2>
+                            <h2><i class="bi bi-chat-square-text"></i> <?php the_title() ?> </h2>
                         </header>
                         <div class="card-body">
                             <?php the_excerpt() ?>
