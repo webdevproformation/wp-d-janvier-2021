@@ -65,3 +65,45 @@ soit cohérent avec ce que l'on a écrit !!
 
 => Bon appétit tout lemonde !! rdv 1 h 
 rdv 13h35 bon appétit à toutes et tous !!!!!!!!!!!! 
+
+------- 
+
+la barre de menu !!! 
+
+Nous allons finaliser la barre de menu 
+
+IMPORTANT peuvent avoir des numéros différents de ceux que j'ai 
+dans mon wordpress => veuillez prendre le numéro du contenu concerné 
+dans le back office 
+
+=> barre de menu totalement dynamique 
+
+=> pour l'instant => créer notre barre de menu à la main 
+
+=> Questions ????????? 
+
+=> retourner dans le fichier header.php 
+
+<li class="nav-item">
+    <a href="<?php echo get_permalink(5) ?>" class="nav-link">Accueil</a>
+</li>
+<li class="nav-item">
+    <a href="<?php echo get_permalink(7) ?>" class="nav-link">Présentation</a>
+</li>
+<li class="nav-item">
+    <a href="#" class="nav-link">Blog</a>
+</li>
+<li class="nav-item">
+    <a href="<?php echo get_permalink(9) ?>" class="nav-link">Nous contacter</a>
+</li>
+
+// ------- 
+
+dans le back office BO > Réglage > Permaliens 
+
+Menu il est en charge de la forme des url dans le front office et
+comme hier, modifier pour lui adresse séletionner "Titre de la publication" et valider en bas 
+
+// -------  
+
+Front Office => regarder l'adresse générée 

@@ -1,0 +1,108 @@
+- rendre la zone de contenu de notre page dynamique 
+
+modifier le fichier index.php 
+
+pour générer le contenu d'une page wordpress met à disposition une fonction 
+
+boucle  // loop 
+
+
+<?php if( have_posts() ) :  ?>
+    <?php while( have_posts() ) : ?>
+        <?php the_post() ; ?>
+        <!-- la boucle crée une variable $post  -->
+        <pre>
+            <?php var_dump($post) ?>
+        </pre>
+    <?php endwhile ?>
+<?php endif ?>
+
+------------------------- 
+
+site PHP et html de base  
+
+dans la barre d'adresse http://localhost:1234/index.php/nous-contacter/
+
+1 récupérer le contenu à afficher 
+$_GET[]
+nous-contacter/
+
+2 requete en base de données 
+requete sql 
+SELECT * FROM article WHERE titre = "nous-contacter"
+
+3 PDO 
+
+3.1 article existe 
+tableau en PHP $data = [ 
+        titre => "Nous Contacter",
+        contenu => "Veuillez utiliser le formulaire suivant pour toutes questions"
+];
+
+3.2 article n'existe pas 
+ tableau en PHP [ ]
+
+4 afficher le contenu du tableau si il n'est pas vide  
+<h2><?php echo $data["titre"] ?></h2>
+<div><?php echo $data["contenu"] ?></div>
+
+------------------- 
+
+Avec Wordpress, c'est la même chose sauf que wordpress 
+automatiquement il va récupéré information + requete sql + recupérer les données 
+AUTOMATIQUE 
+
+=> pour le développeur qui utilise Wordpress, il va juste réaliser 
+la partie affichage 
+
+<?php if( have_post() ) : ?>
+<!--  have_post() = récupéré information url + requete sql  -->
+        <?php while( have_post() ) : ?>
+            <!-- lancer une boucle : 
+            page 1 seul résultat // mais pour article => plusieurs résultats-->
+                <?php the_post() ?> 
+                <!-- créer un variable $post qui l'on va pouvoir utiliser 
+                pour afficher notre contenu -->
+                    <h2><?php the_title() ?></h2>
+                    <h2><?php echo $post->post_title ?></h2>
+                    <div>
+                        <?php the_content() ?>
+                    </div>
+                    <div>
+                        <?php $post->post_content ?>
+                    </div>
+        <?php endwhile() ?>
+<?php endif ?>
+
+=> Boucle wordpress !!! Loop wordpress 
+=> Symfony Doctrine 
+=> projet de base en PHP => PDO 
+
+=> Base de données = ENORME variable => bien rangé ( number / string / date )
+=> si tu n'as pas de base de données 
+<?php 
+    $data = [ 
+        [ 
+          "titre" => "titre 1",
+          "contenu" => "contenu pour titre 1",
+          "date" => "2 janvier 2020"
+        ],
+        [ 
+          "titre" => "titre 2",
+          "contenu" => "contenu pour titre 2",
+          date => "02/01/2020"
+        ]
+        ,
+        [ 
+          "titre" => "titre 2",
+          "contenu" => "contenu pour titre 2"
+        ]
+    ]
+?>
+-------------------------------- 
+
+// Symfony => routing 
+url <=> Controller et une méthode 
+
+// template hiérarchie 
+

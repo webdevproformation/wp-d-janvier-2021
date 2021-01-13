@@ -17,16 +17,16 @@
             <nav class="col-8 navbar navbar-expand navbar-light bg-white">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="<?php echo bloginfo("home") ?>" class="nav-link">Accueil</a>
+                        <a href="<?php echo get_permalink(5) ?>" class="nav-link">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Présentation</a>
+                        <a href="<?php echo get_permalink(7) ?>" class="nav-link">Présentation</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Nous contacter</a>
+                        <a href="<?php echo get_permalink(9) ?>" class="nav-link">Nous contacter</a>
                     </li>
                 </ul>
                 <form class="form-inline d-flex">
