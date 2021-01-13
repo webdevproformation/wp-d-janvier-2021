@@ -26,7 +26,7 @@
                         <a href="<?php echo get_permalink(13) ?>" class="nav-link">Article 1</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Blog</a>
+                        <a href="<?php echo get_category_link( 2 )?>" class="nav-link">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a href="<?php echo get_permalink(9) ?>" class="nav-link">Nous contacter</a>

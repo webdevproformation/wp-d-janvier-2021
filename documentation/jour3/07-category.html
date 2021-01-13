@@ -1,0 +1,58 @@
+créer la catégorie Blog dans article 1 
+
+et associer article 1 <=> Blog
+
+
+si je veux récupérer l'identifiant d'un catégorie
+
+BO > Articles > Catégories > Blog (dans le tableau de droite)
+
+// http://localhost:1234/wp-admin/term.php?taxonomy=category&tag_ID=2&post_type=post&wp_http_referer=%2Fwp-admin%2Fedit-tags.php%3Ftaxonomy%3Dcategory
+
+&tag_ID=2
+
+// l'utiliser le fichier header.php 
+
+// <?php echo get_category_link( 2 )?>
+
+fichier par défaut qui est recherché par wordpress => contenu de type categorie
+
+=> dans le template en cours le fichier category.php 
+
+<?php get_header() ?>
+    <section class="row">
+        <?php if( have_posts()) : ?>
+            <?php while ( have_posts() ) : ?>
+                <?php the_post() ?>
+                <div class="col-4 card">
+                    <header class="card-header">
+                        <h2><?php the_title() ?> </h2>
+                    </header>
+                    <div class="card-body">
+                        <?php the_excerpt() ?>
+                    </div>
+                    <div class="card-footer">
+                        <a href="<?php the_permalink() ?>">lire la suite ...</a>
+                    </div>
+                </div>
+            <?php endwhile ?>
+        <?php endif ?>
+    </section>
+<?php get_footer() ?>
+
+<!-- 
+    page de catégorie => page dans lesquelles vous allez avoir plusieurs articles associés
+    si vous souhaitez afficher tous les articles => la boucle fonctionne directement 
+    à l'identique 
+-->
+
+// cas pratique 
+
+1 créer deux nouveaux articles 
+Article 3 et Article 4 => 
+
+2 associés ces deux articles à la catégorie informatique 
+
+3 ajouter dans la barre de menu la catégorie Informatique => entre blog et Nous contacter 
+
+4 récupérer l'id de Informatique et l'utiliser dans la barre de menu 
