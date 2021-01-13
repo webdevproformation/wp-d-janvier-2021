@@ -60,13 +60,14 @@ dans le fichier page.php
 //------------------------ 
 
 // 1 ajouter un nouveau lien entre Présentation et Blog  => Article 1 (header.php)
-//  2 créer back office => créer un nouvel article 
+//  2 créer dans le back office => créer un nouvel article 
     Titre principal Article 1 
     contenu : p mon premier article de mon blog 
 
-// 3 récupérer l'id de l'article (dans le back office )
+// 3 récupérer l'id de l'article (dans le back office ) 13 
 
 // 4 echo get_permalink(id de l'article) dans l'attribut href de a du lien Article 1 
+dans header.php 
 
 // 5 remplir le fichier single.php  
 
@@ -75,6 +76,14 @@ dans le fichier page.php
 <?php get_header() ?>
     écrire la boucle wordpress 
 <?php get_footer() ?>
+
+
+En fonction du type de contenu (article / page) que tu vas créer dans le back office 
+
+TU n'auras pas le même aspect visuel dans le front office 
+
+via le système de template hiérarchie 
+
 
 
 

@@ -23,6 +23,9 @@
                         <a href="<?php echo get_permalink(7) ?>" class="nav-link">Présentation</a>
                     </li>
                     <li class="nav-item">
+                        <a href="<?php echo get_permalink(13) ?>" class="nav-link">Article 1</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="#" class="nav-link">Blog</a>
                     </li>
                     <li class="nav-item">
