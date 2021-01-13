@@ -94,6 +94,57 @@ Compte administrateur :
     url de connexion : http://localhost/dev/wp-login.php
 
 
+--------------------------
+
+2ème support !! 
+
+Développement de wordpress 
+
+https://formation.webdevpro.net/wordpress-dev/
+login : wp 
+mdp : dev
+
+
+=> EDI Visual Studio Code 
+
+=> présenter l'aborescence de wordpress
+
+dev => dossier racine du projet wordpress // dossier root 
+
+ wp-admin = contient le back office du site wordpress 
+            lorsque vous êtes dans le back office de wordpress 
+            ce sont des fichiers dans ce dossier qui sont exécutés
+ wp-content = dans ce dossier qui est exécuté lorsque l'on regarde le 
+            front office 
+            et c'est dans ce dossier que l'on va travailler à 100% du temps 
+ wp-includes = dans ce dossier toutes les librairies qui sont utilisées 
+            pour faire fonctionner le back office et le front office 
+ pleins de fichier php 
+
+ JAMAIS on ne modifie les fichiers qui sont stockées dans les dossiers wp-admin et wp-includes
+ => les développeurs de Wordpress font régulièrement des mis à jour 
+ => écraser le contenu de ces deux dossiers 
+ si vous modifiez des fichiers dans wp-admin et wp-includes 
+ => il y a de forte chance que les fichiers que vous avez modifiés soient écrasés 
+=> Comment modifier les fichiers dans ces dossiers => "Hook" 
+
+dans le dossier wp-content 
+
+wp-content 
+ plugins : permet de stocker les extensions 
+ themes : permet de stocker les thèmes 
+
+ces dans ces deux dossiers que l'on va travailler à 100% 
+
+nous n'allons jamais modifier / créer / supprimer des fichiers / dossier ailleurs que dans ces deux dossiers 
+
+
+
+
+
+
+
+
 
 
 

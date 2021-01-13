@@ -1,1 +1,11 @@
 autre
+dev/wp-admin
+dev/wp-includes
+dev/wp-content/languages 
+dev/wp-content/themes/twentynineteen
+dev/wp-content/themes/twentytwenty
+dev/wp-content/themes/twentytwentyone
+dev/wp-content/plugins/akismet
+dev/wp-content/plugins/hello.php
+dev/wp-content/plugins/index.php
+dev/*.php
