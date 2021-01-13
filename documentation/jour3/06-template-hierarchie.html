@@ -1,0 +1,83 @@
+Quand on appelle une adresse web dans le front office 
+
+de manière automatique wordpress va 
+
+1 récupéré l'information dans l'url 
+
+2 il va faire une requete SQL dans la base de données 
+
+3 il va regarder dans le dossier du thème concerné 
+
+il va regardé dans le dossier 
+
+wp-content/themes/starter 
+
+parcourir l'ensemble des fichiers 
+
+et il va sélectionner un fichier en fonction
+du type de contenu que l'on veut afficher 
+
+=> si j'ai créé dans le back office un article :
+    => single.php 
+
+=> si j'ai créé dans le back office une page : 
+    => page.php 
+
+=> si j'ai créé dans le back office une catégorie 
+    => category.php 
+
+Attention le nom des fichiers est IMPORTANT 
+
+// ------------------------
+
+Dans le dossier wp-content/themes/starter 
+
+vous allez créé 3 nouveaux fichiers 
+single.php
+page.php
+category.php
+
+dans chacun des fichiers vous allez écrire le code suivant 
+
+dans le fichier page.php
+
+<?php get_header() ?>
+    <section class="row">
+        <?php if( have_posts()) : ?>
+            <?php while ( have_posts() ) : ?>
+            <?php the_post() ?>
+                <div class="col-6">
+                    <h2><?php the_title() ?></h2>
+                </div>
+                <div class="col-6">
+                    <?php the_content() ?>
+                </div>
+            <?php endwhile ?>
+        <?php  endif ?>
+    </section>
+<?php get_footer() ?>
+
+//------------------------ 
+
+// 1 ajouter un nouveau lien entre Présentation et Blog  => Article 1 (header.php)
+//  2 créer back office => créer un nouvel article 
+    Titre principal Article 1 
+    contenu : p mon premier article de mon blog 
+
+// 3 récupérer l'id de l'article (dans le back office )
+
+// 4 echo get_permalink(id de l'article) dans l'attribut href de a du lien Article 1 
+
+// 5 remplir le fichier single.php  
+
+écrire le code suivant :
+
+<?php get_header() ?>
+    écrire la boucle wordpress 
+<?php get_footer() ?>
+
+
+
+
+
+
