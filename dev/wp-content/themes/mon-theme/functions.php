@@ -106,9 +106,15 @@ function mon_theme_generate_menu(){
     // https://www.grafikart.fr/tutoriels/wordpress-timber-1308
 }
 
+// à demain rdv 9h00 bonne soirée tout le monde 
 
+// QCM 
 
-
+// - WP_Query 
+// - thème enfant 
+// - mise en ligne et migration d'une site vers autre hébergement 
+// - bannière et widget 
+// - rgpd 
 
 
 
