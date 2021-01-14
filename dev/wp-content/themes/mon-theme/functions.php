@@ -36,3 +36,10 @@ add_action( "wp_enqueue_scripts" , "mon_theme_css" );
 
 // rdv dans 1h => 13h38 bon appétit tout le monde !!!!!!!! 
 
+function mon_theme_js(){
+    wp_enqueue_script( "mon-script", get_template_directory_uri( ) . "/js/script.js" , [], "1.0", true ) ;
+    // true => ajouter dans le footer
+    // false => ajouter dans le header 
+}
+
+add_action("wp_enqueue_scripts" , "mon_theme_js" );

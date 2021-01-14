@@ -1,0 +1,34 @@
+vous voulez ajouter du javascript dans votre thème 
+
+c'est très simple :
+
+il existe plusieurs techniques pour ajouter du js dans thème 
+
+Créer un fichier script.js
+
+créer un dossier js qui va contenir le fichier script.js
+ce fichier contient le script suivant :
+
+console.log("je suis le fichier script.js");
+
+1ère possibilité => 
+la même technique que pour les fichiers css  
+
+footer.php 
+
+<script src="<?php echo get_template_directory_uri( ) . "/js/script.js" ?>"></script>
+
+sur le front => rafraichir la page 
+
+--------------------------------- 
+
+
+utiliser le système de hook 
+
+au lieu d'ajouter l'appel du fichier dans le fichier footer.php 
+
+dans le fichier functions.php 
+
+
+
+
