@@ -53,4 +53,10 @@ function mon_theme_single_js (){
 
 add_action("wp_enqueue_scripts" , "mon_theme_single_js" );
 
+function mon_theme_home_page_js(){
+    if(is_home() || is_page()){
+        wp_enqueue_script( "mon-script-page", get_template_directory_uri( ) . "/js/script-page.js" , [], "1.0", true ) ;
+    }
+}
 
+add_action("wp_enqueue_scripts", "mon_theme_home_page_js" );

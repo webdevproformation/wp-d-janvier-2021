@@ -72,4 +72,15 @@ modifier la page single.php
 
 // si on clique sur une image , ajouter en dessous le nom de l'image 
 
+// 14h34 pour le réaliser
 
+
+dans le fichier functions.php 
+
+function mon_theme_home_page_js(){
+    if(is_home() || is_page()){
+        wp_enqueue_script( "mon-script-page", get_template_directory_uri( ) . "/js/script-page.js" , [], "1.0", true ) ;
+    }
+}
+
+add_action("wp_enqueue_scripts", "mon_theme_home_page_js" );
