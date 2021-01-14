@@ -43,3 +43,14 @@ function mon_theme_js(){
 }
 
 add_action("wp_enqueue_scripts" , "mon_theme_js" );
+
+function mon_theme_single_js (){
+    if(is_single()){
+        wp_enqueue_script( "mon-script-single", get_template_directory_uri( ) . "/js/script-single.js" , [], "1.0", true ) ;
+    }
+}
+
+
+add_action("wp_enqueue_scripts" , "mon_theme_single_js" );
+
+
