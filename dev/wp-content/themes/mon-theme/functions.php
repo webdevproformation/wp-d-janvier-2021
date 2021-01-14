@@ -97,6 +97,13 @@ function mon_theme_generate_menu(){
     $html .= "</ul>";
     $html .= "</nav>";
     return $html ; 
+
+    // https://wabeo.fr/construire-walker-wordpress/ 
+    // https://wordpress.org/plugins/timber-library/
+    // paramétrer => {{  }}
+    // {# #}
+    // {% for %}
+    // https://www.grafikart.fr/tutoriels/wordpress-timber-1308
 }
 
 
