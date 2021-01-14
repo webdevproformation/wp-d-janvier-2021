@@ -60,3 +60,16 @@ function mon_theme_home_page_js(){
 }
 
 add_action("wp_enqueue_scripts", "mon_theme_home_page_js" );
+
+// permet de personnaliser le contenu de la balise title de toutes les pages du site
+
+function mon_theme_title ( $title ){
+    if(is_home()){
+        $title = "Bienvenu sur mon site" . " | " . get_option('blogname');
+    }else {
+        $title = substr($title, 9, strlen($title)) . " | " . get_option('blogname');
+    }
+    return $title;
+}
+
+add_filter( "wp_title", "mon_theme_title" );

@@ -20,3 +20,7 @@ add_action("wp_enqueue_scripts","fancybox_js_css");
 
 // <img src="small_1.jpg">
 // <a data-fancybox="gallery" href="big_1.jpg"><img src="small_1.jpg"></a>
+
+// petit café => rdv dans 15 min // continuer à voir les principales fonctionnalités de wordpress
+// rdv à 15h56 !!!!!!!!!!! 
+// bon café tout le monde ! 

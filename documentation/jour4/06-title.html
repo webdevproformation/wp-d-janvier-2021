@@ -1,0 +1,17 @@
+
+pour la balise <title></title>
+
+dans le fichier header.php => on veut rendre son contenu dynamique (en fonction de la page appelée )
+
+<?php wp_title() ?>
+
+ça fonctionne sur toutes les pages sauf la page d'accueil 
+
+pour faire en sorte que ça fonctionne même sur la page d'accueil 
+
+ajouter pas ajouter un un hook => add_action() 
+
+add_filter() // modifier le texte qui doit être émis par wordpress 
+
+functions.php 
+
