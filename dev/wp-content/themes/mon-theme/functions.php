@@ -73,3 +73,36 @@ function mon_theme_title ( $title ){
 }
 
 add_filter( "wp_title", "mon_theme_title" );
+
+// ajouter le système de gestion de menu 
+
+register_nav_menus( [ "top" => "Menu Principal"] );
+// back office 
+
+function mon_theme_generate_menu(){
+    $m = wp_get_nav_menu_items('Menu Principal');
+    $html = "<nav class=\"col-12 navbar navbar-expand bg-dark navbar-dark\">";
+    $html .= "<a href=\"".get_option('home')."\" class=\"navbar-brand\">
+                <img src=\"".get_template_directory_uri() ."/img/logo.png\" alt=\"\">
+                ".get_option('blogname')."
+            </a>";
+    $html .= "<ul class=\"navbar-nav ms-auto\">";
+        foreach($m as $item){
+            $html .= "<li class=\"nav-item\">";
+            $html .= "<a href=\"$item->url\" class=\"nav-link\">";
+            $html .= $item->title ;
+            $html .= "</a>";
+            $html .= "</li>";
+        }
+    $html .= "</ul>";
+    $html .= "</nav>";
+    return $html ; 
+}
+
+
+
+
+
+
+
+
