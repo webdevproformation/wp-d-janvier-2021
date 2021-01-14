@@ -1,0 +1,44 @@
+Comme on l'a vu hier 
+
+wordpress va rechercher un template (fichier .php) dans le dossier tu thème en fonction de la nature de contenu appelé 
+
+si vous cliquez sur un lien 
+
+page (qui a été créé dans le back office) 
+
+page.php (dans le dossier thème)
+si il n'y a pas ce fichier  
+il va chercher dans le dossier du thème 
+singular.php 
+si il trouve pas => index.php 
+
+page.php => singular.php  => index.php
+
+attention le nommage est très important 
+
+souvent quand on fait des pages dans un site wordpress 
+un peu plus libre pour créer l'apparence des pages
+
+créer un fichier dans le dossier thème 
+
+<?php
+/*
+ Template Name: template-name
+*/
+?>
+
+page spéciale pour la page politique de confidentialité 
+
+cette page doit avoir une mise en forme spécifique 
+
+dans le dossier mon-theme > confidentialite.php 
+
+<!-- modèle de page -->
+
+Back office > Page 
+
+l'onglet page > section disponible > Attributs de Page  > Modèle > politique de confidentialité
+
+post id 3
+
+modifier le menu dans le fichier footer.php 
