@@ -24,5 +24,15 @@ function mon_theme_css(){
     wp_enqueue_style( "style", get_template_directory_uri() ."/style.css" , [], "1.0",  "all" );
 }
 
+add_action( "wp_enqueue_scripts" , "mon_theme_css" );
 
-add_action("wp_enqueue_scripts" , "mon_theme_css" );
+// pause déjeuner 
+// ajouter du javascript dans un thème wordpress 
+// ajouter un script en jQuery 
+
+// requêtes new WP_Query()
+
+// plugin extension dans nos projets wordpress ! 
+
+// rdv dans 1h => 13h38 bon appétit tout le monde !!!!!!!! 
+
