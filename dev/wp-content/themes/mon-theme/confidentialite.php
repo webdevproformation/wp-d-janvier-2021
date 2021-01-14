@@ -3,7 +3,7 @@
     Template Name: politique de confidentialité
     */
 ?>
-<!-- modèle de page -->
+<!-- modèle de page rdv dans 15 min // rdv 10h54 bon café !!! -->
 <?php get_header() ?>
     <?php if( have_posts()) : ?>
         <?php while( have_posts() ) : ?>

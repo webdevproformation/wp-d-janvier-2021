@@ -1,0 +1,62 @@
+maintenant que l'on vu les images
+
+il est possible d'ajouter son propre code css dans un thème wordpress 
+
+en + de bootstrap que vous avez ajouter vous même 
+dans le header 
+
+--------------------- 
+
+plusieurs techniques possibles 
+
+1 créer un dossier dans votre dossier de thème 
+css/mon-style.css 
+
+utiliser ce fichier dans mon thème 
+
+dans le fichier header.php  
+
+<link rel="stylesheet" href="<?php echo get_template_directory_uri() ."/css/mon-style.css"?>">
+
+fonction va permettre d'ajouter des class différentes en fonction de la page concernée
+à ajouter dans sur la balise body de la page <?php body_class("container"); ?>
+
+permettre de générer de manière dynamique des class en fonction de la page concerné 
+
+évite au développeur à avoir à écrire les class en fonction de la page 
+
+dans le fichier mon-style.css 
+
+.single {
+    min-height: calc(100vh - 50px);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+// ----------------------------
+
+// pour créer notre thème on a créé un style.css 
+// il est possible d'utiliser ce fichier dans le fichier header.php 
+
+<link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/style.css" ?>">
+
+dans le fichier style.css  
+
+footer a {
+    text-decoration: none;
+    color: black;
+    transition: 1s color;
+}
+  
+footer a:hover {
+color: red ;
+}
+
+
+// ----------------------------
+
+au lieu d'ajouter des styles dans le fichier header.php 
+
+le mieux c'est d'ajouter plutôt les styles le fichier functions.php 
+
+via le système de hook 

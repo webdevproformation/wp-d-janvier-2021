@@ -1,0 +1,95 @@
+maintenant que l'on a revu le mode opératoire
+
+pour construire un thème, les médias
+
+=> images 
+=> css 
+=> javascript 
+
+---------------------------- 
+
+je veux ajouter des images dans mon thème 
+
+1 utiliser Gutenberg => lorsque vous rédigez votre article 
+page => je veux ajouter une image 
+
+article 4 ajouter une image via Gutenbert 
+et afficher l'article pour voir son aspect 
+
+BO > Article > Modifier Article 4
+
+image que je viens d'ajouter => <?php the_content() ?>
+
+----------------------------
+
+lorsque l'on est sur un article (dans le back office) => image à la une
+image qui va permettre de représenter le contenu de l'article (comme le titre principal de l'article)
+
+=> par défaut, les images à la unes ne sont pas activée dans un thème 
+
+si je souhaite activer les fonctionnalités image à la une des article et pages 
+
+=> ajouter un hook dans le fichier functions.php 
+
+function starter_support(){
+    add_theme_support( 'post-thumbnails' );
+}
+
+add_action( 'after_setup_theme', 'starter_support' );
+
+// ---------------------------- 
+
+// add_action( ) => fonction de wordpress => hook d'action 
+                 => permet de modifier le comportement codé dans 
+                 le dossier wp-includes 
+
+add_action( "nom-du-hook" , "nom-de-la-fonction-a-executer" )
+
+// une fois que les images en vedette est opérationelle => utiliser 
+prendre l'article et je lui ajoute une image en vedette  
+
+// permalien > voir l'article (je ne vois pas l'image)
+
+fonction à utiliser dans la boucle 
+
+dans le fichier single.php 
+
+A mettre dans la boucle : 
+<?php the_post_thumbnail( ) ?> 
+
+c'est cette fonction qui est en charge d'afficher l'image en vedette de l'article 
+
+<?php the_post_thumbnail() ?> // taille d'origine 
+<?php the_post_thumbnail("thumbnail") ?> // taille miniature
+<?php the_post_thumbnail("medium") ?> // taille moyenne
+<?php the_post_thumbnail("large") ?> // taille grande 
+<?php the_post_thumbnail([200,150]) ?> // taille personnalisée
+
+Réglage > Média > 3 tailles d'images disponibles 
+
+
+<?php if(has_post_thumbnail() ) : ?>
+    <?php the_post_thumbnail( "thumbnail" , [ "class" => "img-thumbnail" ] ) ?>
+<?php else : ?>
+    <img src="https://via.placeholder.com/150x150" alt="" class="img-thumbnail">
+<?php endif ?>
+
+--------------------- 
+
+j'ai une image téléchargé et que j'ai mise dans le dossier wp-content/themes/mon-theme/img/logo.png
+
+https://via.placeholder.com/60x40
+
+téléchargé l'image dans le dossier wp-content/themes/mon-theme/img/
+
+et je veux utiliser cette image comme logo pour mon site 
+
+header.php 
+
+get_template_directory_uri() => permet de récupérer l'adresse web du mon thème 
+
+
+<img src="<?php echo get_template_directory_uri() ."/img/logo.png" ?>" alt="">
+
+----------------- 
+

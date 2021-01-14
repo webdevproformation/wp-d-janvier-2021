@@ -4,6 +4,7 @@
             <?php the_post() ?>
             <div class="col-12">
                 <h2><?php the_title() ?></h2>
+                <?php the_post_thumbnail("thumbnail") ?> 
                 <div>
                     <?php the_content() ?>
                 </div>

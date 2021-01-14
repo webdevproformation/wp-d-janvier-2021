@@ -1,0 +1,5 @@
+.single {
+    min-height: calc(100vh - 50px);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
