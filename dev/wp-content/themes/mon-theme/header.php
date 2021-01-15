@@ -9,6 +9,12 @@
 <body>
     <div <?php body_class("container"); ?>>
         <header class="row">
-            <?php echo mon_theme_generate_menu() ?>
+            <nav class="col-12 navbar navbar-expand bg-dark navbar-dark">
+                <?php echo mon_theme_generate_menu() ?>
+                <form action="#" class="d-flex ms-2">
+                    <input type="text" name="s" placeholder="rechercher" class="form-control py-1 px-3">
+                    <input type="submit" class="btn btn-outline-light btn-sm ms-2 p-1">
+                </form>
+            </nav>
         </header>
         <section class="row mt-3">

@@ -81,8 +81,8 @@ register_nav_menus( [ "top" => "Menu Principal"] );
 
 function mon_theme_generate_menu(){
     $m = wp_get_nav_menu_items('Menu Principal');
-    $html = "<nav class=\"col-12 navbar navbar-expand bg-dark navbar-dark\">";
-    $html .= "<a href=\"".get_option('home')."\" class=\"navbar-brand\">
+
+    $html = "<a href=\"".get_option('home')."\" class=\"navbar-brand\">
                 <img src=\"".get_template_directory_uri() ."/img/logo.png\" alt=\"\">
                 ".get_option('blogname')."
             </a>";
@@ -95,7 +95,6 @@ function mon_theme_generate_menu(){
             $html .= "</li>";
         }
     $html .= "</ul>";
-    $html .= "</nav>";
     return $html ; 
 
     // https://wabeo.fr/construire-walker-wordpress/ 
