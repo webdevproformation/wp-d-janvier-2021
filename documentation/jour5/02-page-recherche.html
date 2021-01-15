@@ -1,0 +1,22 @@
+nous venons de créer un formulaire => dédié pour la recherche 
+
+dans la template hiérarche vous avez un fichier search.php 
+
+recherche => search.php 
+
+ce template (search.php) est appelé lorsque le site a l'adresse suivante :
+
+localhost/dev/?s=mot recherché  => wordpress va choisir le fichier search.php 
+
+
+ajouter quelques fonctions dans le formulaire de recherche 
+
+<?php echo get_search_query() ?> => récupérer ce qui a été demandé ! 
+
+<?php echo esc_url(home_url( '/' )); ?>
+
+home_url( '/' ) => http://localhost/dev/
+
+esc_url( ) sécurité évite les gens envoie des informations pour faire de l'injection 
+
+
