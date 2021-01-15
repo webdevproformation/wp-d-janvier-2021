@@ -30,3 +30,14 @@ function get_articles(){
 
 }
 
+function get_all_articles()
+{
+    // https://developer.wordpress.org/reference/classes/wp_query/
+    $arg = [
+        'post_type' => 'post' , // tous les articles 
+        'post_status' => 'publish' // qui sont publiés 
+    ];
+    $requete = new WP_Query( $arg );
+    return $requete->posts ;
+}
+
