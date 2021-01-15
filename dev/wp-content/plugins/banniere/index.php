@@ -55,3 +55,8 @@ $texteTable[count( $texteTable ) - 1];
 // tableau 
 // fonction
 // class et objet 
+
+// Wp_Query // thème enfant // qcm 
+// jointure SQL  (après 17h00) hors sujet 20 min 
+
+// bon appétit rdv dans 1 h => 13h32 !!!! bon app 
