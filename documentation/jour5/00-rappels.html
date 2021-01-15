@@ -1,0 +1,57 @@
+support 2 premiers jours :
+https://formation.webdevpro.net/wordpress 
+login : wp 
+mdp : wp 
+
+support fin de semaine :
+https://formation.webdevpro.net/wordpress-dev
+login : wp 
+mdp : dev 
+
+repository pour le partage mes notes :
+https://github.com/webdevproformation/wp-d-janvier-2021
+
+-----------------------
+
+des questions ??? 
+
+
+PS sur les plugins 
+
+dossier dans le dossier wp-content/plugins 
+
+dans ce dossier insérer un fichier index.php 
+
+dans ce fichier, insérer un commententaire 
+
+<?php 
+/**
+    Plugin Name: nom
+    Description: une description
+    Version: 1
+    Author: auteur
+*/
+
+Facultatif mais Obligatoire en faire en terme de sécurité 
+
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
+à ajouter à la suite du commentaire 
+
+Est que la constante PHP  ABSPATH est définie dans le code source qui l'appelle 
+
+si la condition est fausse alors il faut exit 
+
+variable qui est définie dans la wp-config.php 
+ce fichier se trouve à la racine de votre projet wordpress 
+
+ce fichier est essentiel qu'il contient une 10 constante 
+identifiants de connexion à la base de données 
+ET 
+ABSPATH = chemin absolue du projet wordpress 
+
+
+// ajouter deux fichiers 
+

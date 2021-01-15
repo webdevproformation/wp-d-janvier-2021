@@ -6,6 +6,12 @@
     Author: Malik H
 */
 
+// pour la sécurité du code !
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
+
 function fancybox_js_css (){
     wp_enqueue_style( "fancybox-style", "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css", [], "3.5.7", "all" );
 
