@@ -1,5 +1,11 @@
-.single , .error404 , .search-no-results {
+.single , .error404 {
     min-height: calc(100vh - 50px);
     display: grid;
     grid-template-rows: auto 1fr auto;
+}
+
+.search-no-results{
+    min-height: calc(100vh - 50px);
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
 }

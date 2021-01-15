@@ -1,0 +1,47 @@
+par défaut lorsque l'on appelle une page dans wordpress 
+
+AUTOMATIQUEMENT on a un requête SQL qui est exécutée qui va récupérer tous les champs de la page recherchée dans la barre d'adresse 
+
+souvent, on va vouloir afficher autre chose que le contenu proposé par défaut 
+
+quand je suis dans un article 
+
+la liste de tous les articles de la même catégorie qui soient proposées en pied de page 
+
+afficher les articles de la même catégorie 
+
+WP_QUERY()
+
+pour réaliser ce bloc => requête SQL (jointure)
+
+=> PDO et SQL => le type de requête SQL que je dois réaliser :
+
+SELECT * FROM articles AS a
+JOIN categorie AS c
+ON a.id = c.id
+WHERE c.name = "javascript"
+
+------------------- 
+Dans Wordpress on a une class PHP qui permet de réaliser des requêtes très facilement  
+
+$requete = new WP_Query( [ que dire ] );
+
+$requete->posts // tableau [ les différents articles qui correspondent à ce que l'on recherche ]
+
+parcourir avec une boucle foreach // la Loop wordpress 
+
+----------- 
+
+cas pratique : 
+créer un plugin articles_associes 
+
+----------- 
+
+function_exists(); // PHP directement 
+
+<?php if(function_exists("generate_banniere")) :
+     echo generate_banniere(); 
+endif ?>
+
+
+
