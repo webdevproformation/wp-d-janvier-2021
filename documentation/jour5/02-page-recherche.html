@@ -6,7 +6,7 @@ recherche => search.php
 
 ce template (search.php) est appelé lorsque le site a l'adresse suivante :
 
-localhost/dev/?s=mot recherché  => wordpress va choisir le fichier search.php 
+localhost/dev/?s=mot+recherché  => wordpress va choisir le fichier search.php 
 
 
 ajouter quelques fonctions dans le formulaire de recherche 
@@ -18,5 +18,10 @@ ajouter quelques fonctions dans le formulaire de recherche
 home_url( '/' ) => http://localhost/dev/
 
 esc_url( ) sécurité évite les gens envoie des informations pour faire de l'injection 
+transformer espace en un symbole compatible pour les urls => + 
+esc = échappement de caractère pour qu'ils soient compatibles avec les urls 
 
 
+search.php <= localhost/dev/?s
+
+contient la boucle wordpress (tout simplement !!! )
