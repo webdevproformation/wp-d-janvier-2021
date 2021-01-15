@@ -1,0 +1,16 @@
+.article-col-12{
+    width: 100%;
+}
+.article-row{
+    display: flex;
+}
+.article-col-3{
+    width : calc( 100% / 3 )
+} 
+.article-card{
+    border: 1px solid grey;
+    border-radius: 5px;
+}  
+.article-py-4{
+    padding: 20px 0;
+}
