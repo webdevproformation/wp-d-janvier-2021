@@ -15,4 +15,5 @@
                 <?php echo get_template_part( "search-form" ) ?>
             </nav>
         </header>
+        
         <section class="row mt-3">

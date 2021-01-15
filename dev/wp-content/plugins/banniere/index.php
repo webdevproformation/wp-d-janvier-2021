@@ -43,15 +43,15 @@ $texte =  "bonjour les amis autre mots "; // string
 // transformer en tableau 
 
 $texteTable = explode( " " , $texte); // $texteTable = ["bonjour" , "les" , "amis" , "autre" , "mots" ]
-
 // 1er mot 
 $texteTable[0];
 // 2eme mot 
 $texteTable[1];
 // dernier mot 
 $texteTable[5 - 1]; // "mots"
-
 // au lieu d'écrire 5 count( $texteTable )
-
 $texteTable[count( $texteTable ) - 1];
-
+// variable simple => 2 "lettre"
+// tableau 
+// fonction
+// class et objet 
