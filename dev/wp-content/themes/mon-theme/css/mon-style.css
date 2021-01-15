@@ -1,4 +1,4 @@
-.single , .error404 {
+.single , .error404 , .search-no-results {
     min-height: calc(100vh - 50px);
     display: grid;
     grid-template-rows: auto 1fr auto;

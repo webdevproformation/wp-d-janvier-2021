@@ -12,3 +12,4 @@
 </div>
 
 <?php get_footer() ?>
+<!-- rdv 10h52 pour la suite !!! bon café tout le monde -->

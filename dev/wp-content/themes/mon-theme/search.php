@@ -17,10 +17,14 @@
         </div>
     <?php endwhile ?>
 <?php else : ?>
-    <h2>Aucun article trouvé pour le mot recherché</h2>
-    <p>Relancer une recherche :</p>
-    <?php echo get_template_part( "search-form" ) ?>
-    <!--  on n'a pas de contenu pour le texte recherché -->
+    <div class="bg-secondary d-flex align-items-center justify-content-center">
+        <div>
+            <h2>Aucun article trouvé pour le mot recherché</h2>
+            <p>Relancer une recherche :</p>
+            <?php echo get_template_part( "search-form" ) ?>
+            <!--  on n'a pas de contenu pour le texte recherché -->
+        </div>
+    </div>
 <?php endif ?>
 
 <?php get_footer() ?>
